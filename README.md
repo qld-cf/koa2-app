@@ -78,9 +78,11 @@ $ make test-cov
 #### 注意事项
 
 1、登录接口中，获取token，初始化user后去数据库拿秘钥作为post参数即可，如：
+```
 {
   "password": "e10adc3949ba59abbe56e057f20f883e"
 }
+```
 
 2、用于上传测试excel存放于 /excel 目录，接口请求时请在headers带上token,body选择form-data, key = src 类型选择file上传方式
 
