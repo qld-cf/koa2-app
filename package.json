@@ -1,0 +1,42 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "ioredis": "^3.2.2",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.2",
+    "mysql2": "^1.6.5",
+    "request": "^2.88.0",
+    "sequelize": "^5.8.5",
+    "superagent": "^5.0.5",
+    "superagent-charset": "^1.2.0",
+    "uuid": "^3.2.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0",
+    "xlsx": "^0.14.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.1.2",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@types/koa": "^2.0.48",
+    "husky": "^1.0.0",
+    "mm": "^2.2.0",
+    "mocha": "^4.1.0",
+    "nyc": "^11.9.0",
+    "should": "^13.2.1",
+    "supertest": "^3.1.0"
+  }
+}

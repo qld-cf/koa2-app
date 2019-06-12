@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "alphacity",
+      "script": "app.js",
+      "instances": 4,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "CONFIG_PATH":""
+      }
+    }
+  ]
+}
