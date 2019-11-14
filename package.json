@@ -33,6 +33,7 @@
     "@commitlint/config-conventional": "^7.1.2",
     "@types/koa": "^2.0.48",
     "husky": "^1.0.0",
+    "koa-static": "^5.0.0",
     "mm": "^2.2.0",
     "mocha": "^4.1.0",
     "nyc": "^11.9.0",
