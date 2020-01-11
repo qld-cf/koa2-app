@@ -95,3 +95,8 @@ $ make test-cov
       password: '123',
       database: 'koa',
 ```
+
+#### TODO: 
+- 初始化默认不连接mysql
+
+ - http://127.0.0.1:3000/api/v1/koa/mobile?name=华为
