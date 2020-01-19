@@ -97,4 +97,4 @@ $ make test-cov
 ```
 
 #### TODO: 
-- 初始化默认不连接mysql
+- [x] 初始化连接mysql 报错改为提示
