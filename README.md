@@ -39,7 +39,9 @@
 准备： 本地开启mysql，开启端口3306
 ```
 $ npm install          安装依赖
-$ node app.js           启动程序
+$ npm i -g nodemon     安装nodemon
+$ npm run dev          默认启动
+$ npm run sit          访问mysql启动服务
 ```
 
 
@@ -96,7 +98,7 @@ $ make test-cov
       database: 'koa',
 ```
 
-#### TODO: 
+#### TODO:
 - [x] 初始化连接mysql 报错改为提示
 
 

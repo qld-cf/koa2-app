@@ -1,0 +1,19 @@
+{
+  "code": 0,
+  "msg": "请求成功",
+  "data": [
+      {
+          "name": "zhangsan",
+          "age": 50
+      },
+      {
+          "name": "lisi",
+          "age": 32
+      },
+      {
+          "name": "wangwu",
+          "age": 17
+      }
+  ]
+}
+
